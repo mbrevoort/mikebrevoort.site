@@ -1,0 +1,24 @@
+// =============================================================================
+// Posts
+// =============================================================================
+
+.post {
+  > header {
+    position: relative;
+    margin-bottom: $base-spacing-unit;
+    @include keyline(bottom);
+
+    > h2 {
+      margin-bottom: ($base-spacing-unit / 6);
+    }
+  }
+
+  > footer {
+    margin: ($base-spacing-unit * 1.5) 0 $base-spacing-unit;
+    @include clearfix();
+  }
+}
+
+.content {
+  position: relative;
+}

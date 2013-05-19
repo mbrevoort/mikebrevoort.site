@@ -1,0 +1,8 @@
+# Standard Jekyll configuration
+markdown: redcarpet
+permalink: /:categories/:title/
+exclude: ['Rakefile', 'readme.md', 'license.md', 'codekit-config.json', 'svg', 'sass']
+
+# Configuration required for some pages
+url: http://mike.brevoort.com
+title: Mike Brevoort
