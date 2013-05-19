@@ -23,15 +23,15 @@ Feel free to watch the **long** 3:25 keynote [here](http://www.youtube.com/watch
 
 ## Web Components
 
-Truely encapsulated DOM, JavaScript and CSS space without iframes and the ability to bind together and nest multiple components. This is going to completely change how web applications are built in the future. When will all of this goodness be available to actually use you may ask? Well, thanks to [Polymer], a near complete polyfill for the Web Components stack of APIs, that's promised to work in the latest version of all modern browsers, the future may very well be now! Or sooner as it may be. 
+Truely encapsulated DOM, JavaScript and CSS space without iframes and the ability to bind together and nest multiple components. This is going to completely change how web applications are built in the future. When will all of this goodness be available to actually use you may ask? Well, thanks to [Polymer], a near complete polyfill for the Web Components stack of APIs that's promised to work in the latest version of all modern browsers, the future may very well be now! Or sooner as it may be. 
 
 Anyway, Web Components! Check it out. Watch this [web components overview] and this [Polymer session] to learn more. 
 
 ## The Realtime Web
 
-One of my greatest passions these days is the realtime web. I'm fascinated by the untapped potential of the web as a true platform for synchronous activities and communication. There were several related sessions at I/O with topics including WebRTC and the newish [Google Drive Realtime API]. 
+One of my greatest passions these days is the realtime web. I'm fascinated by the untapped potention of the web as a true platform for synchronous activities and communication. There we several related sessions at I/O with topics include WebRTC and the newish Google Drive Realtime API. 
 
-[WebRTC] makes me all giddy, realtime audio, video and data communication natively supported in the browser through JavaScript and HTML5. However, I'm still very sad ([like Larry Page](http://www.youtube.com/watch?feature=player_embedded&v=9pmPa_KxsAM#t=10663s)) that [Microsoft is going their own way and not committing to WebRTC](http://gigaom.com/2013/01/17/microsoft-cu-webrtc-prototype/). I'd rather see us end up with a "good" ubiquitous standard, sooner rather than later, than loosing the forest for the trees and arguing over what's "best". The WebRTC session hasn't been posted yet but may be by the time you are reading this so check it out if you're interested [here with the rest of the I/O session videos](https://developers.google.com/live/).
+[WebRTC] makes me all giddy, realtime audio, video and data communication natively supported in the browser through JavaScript and HTML5. However, I'm still very sad ([like Larry Page](http://www.youtube.com/watch?feature=player_embedded&v=9pmPa_KxsAM#t=10663s)) that [Microsoft is going their own way and not committing to WebRTC](http://gigaom.com/2013/01/17/microsoft-cu-webrtc-prototype/). I'd rather see use end up with a "good" ubiquitous standard, sooner rather than later, than bickering over what's "best". The WebRTC session hasn't been posted yet but may be by the time you are reading this so check it out if you're interested [here with the rest of the I/O session videos](https://developers.google.com/live/).
 
 The [Google Drive Realtime API] is really interesting because it, like [Firebase], provides a very powerful high-level encapsulations, handing all of the complex communication, data synchronization, eventing and scaling while providing the web developer with a relatively simple client-side Javascript API. This is very similar to what they provided first in the Hangouts API. The session on the [Google Drive Realtime API](https://developers.google.com/drive/realtime/) was solid, describing some of the internals of the Operational Transform (OT) implementation and the fact that they are still just doing long-polling GETs with CORS without websockets even for modern browsers. Lastly I was happy to hear that it was developed by a local team in Boulder. 
 
@@ -48,6 +48,5 @@ In conclusion, I'd like to celebrate my return to blogging :) Which means that I
   [ShareJS]: https://github.com/josephg/ShareJS
   [web components overview]: https://developers.google.com/live/shows/554680121/
   [Polymer session]: https://developers.google.com/live/shows/518070400/
-  [Polymer]: http://www.polymer-project.org/
-  
+  [Polymer]: http://www.polymer-project.org/  
 
