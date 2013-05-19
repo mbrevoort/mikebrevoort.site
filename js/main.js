@@ -8,7 +8,7 @@
       hasLikes = false,
       database = 'mikebrevoort',
       collection = 'likes',
-      apiKey = 'ZqUyD4bGcXktf9nj2A2Ixbt5IAMKWzKs',
+      apiKey = 'O5du5o12UZ4urBz4jxt7imKGPz2YATvV',
       timer;
 
   if (location.hostname.match('mike\.brevoort\.com') && $likes.length) {
