@@ -1,0 +1,750 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+html {
+  border-top: 6px solid #444444;
+  font: 1.125em/1.5 "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: #444444; }
+
+body {
+  margin: 0;
+  background: #f0f2f4; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  color: #21759b;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  a:hover {
+    text-decoration: underline;
+    color: #d54e21; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1.5rem;
+  font-family: "adelle", georgia, times, "times new roman", serif;
+  color: #444444; }
+
+h1,
+.alpha {
+  font-size: 2rem;
+  line-height: 1.33333; }
+
+h2,
+.beta {
+  font-size: 1.66667rem;
+  line-height: 1.4; }
+
+h3,
+.gamma {
+  font-size: 1.33333rem; }
+
+h4,
+.delta {
+  font-size: 1.16667rem; }
+
+h5,
+.epsilon {
+  font-size: 1rem; }
+
+h6,
+.zeta {
+  font-size: 0.83333rem; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+hr {
+  margin-bottom: 1.5rem;
+  border: none;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid white; }
+
+mark {
+  color: black;
+  background: #fffbcc; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: consolas, "liberation mono", courier, monospace;
+  font-size: 0.83333rem; }
+
+p {
+  margin: 0 0 1.5rem; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+blockquote {
+  margin: 0 0 0.75rem;
+  padding: 0; }
+  blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/**
+ * We don't want to use rems for <small>, <sub> or <sup>.
+ * We want the font-size to remain relative to whatever the parent element is.
+ */
+small {
+  font-size: 0.875em; }
+
+sub,
+sup {
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 1.5rem 1.5rem; }
+
+li {
+  margin-bottom: 10px; }
+  li > ul,
+  li > ol {
+    margin-bottom: 0; }
+
+.list-unstyled {
+  margin-left: 0;
+  list-style: none; }
+
+.two-up {
+  margin: 0 -0.375rem 0.75rem;
+  *zoom: 1; }
+  .two-up:before, .two-up:after {
+    content: " ";
+    display: table; }
+  .two-up:after {
+    clear: both; }
+  .two-up li {
+    float: left;
+    width: 50%;
+    padding: 0 0.375rem 0.75rem; }
+
+.list-equipment img {
+  margin-right: 0.375rem;
+  vertical-align: middle; }
+.list-equipment .btn {
+  display: block;
+  overflow: hidden;
+  padding: 0.375rem;
+  text-overflow: ellipsis; }
+
+code {
+  padding: 0.25rem 0.25rem 0.125rem;
+  border: 1px solid #ccbc00;
+  border-radius: 4px;
+  color: #7f612e;
+  background: #fffbcc; }
+
+pre {
+  display: block;
+  overflow: auto;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 white; }
+
+pre > code {
+  padding: 0;
+  border: none;
+  color: #586e75;
+  background: none; }
+
+.highlight .c {
+  color: #93a1a1; }
+
+.highlight .cm {
+  color: #93a1a1; }
+
+.highlight .c1 {
+  color: #93a1a1; }
+
+.highlight .k {
+  color: #586e75;
+  font-weight: bold; }
+
+.highlight .kc {
+  color: #d33682; }
+
+.highlight .kd {
+  color: #586e75;
+  font-weight: bold; }
+
+.highlight .kr {
+  color: #d33682;
+  font-weight: bold; }
+
+.highlight .m {
+  color: #859900; }
+
+.highlight .mi {
+  color: #859900; }
+
+.highlight .n {
+  color: #586e75; }
+
+.highlight .na {
+  color: #268bd2; }
+
+.highlight .nb {
+  color: #268bd2; }
+
+.highlight .nc {
+  color: #268bd2; }
+
+.highlight .nd {
+  color: #268bd2; }
+
+.highlight .nf {
+  color: #d33682; }
+
+.highlight .nt {
+  color: #268bd2; }
+
+.highlight .nx {
+  color: #586e75; }
+
+.highlight .o {
+  color: #586e75; }
+
+.highlight .p {
+  color: #586e75; }
+
+.highlight .s {
+  color: #d33682; }
+
+.highlight .s1 {
+  color: #d33682; }
+
+.highlight .s2 {
+  color: #d33682; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none; }
+
+iframe {
+  max-width: 100%;
+  margin-bottom: 1.5rem; }
+
+.img-polaroid,
+.iframe-polaroid {
+  padding: 4px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: white; }
+
+.fluid-width-video-wrapper {
+  margin-bottom: 1.5rem; }
+
+.figure-img {
+  display: inline-block;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 white;
+  background: rgba(0, 0, 0, 0.05); }
+  .figure-img.pull-right, .figure-img.pull-left {
+    max-width: 50%; }
+  .figure-img.pull-right {
+    margin: 0 0 1.5rem 1.5rem; }
+  .figure-img.pull-left {
+    margin: 0 1.5rem 1.5rem 0; }
+  .figure-img > img {
+    display: block;
+    margin: 0 auto; }
+  .figure-img figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.83333rem; }
+    .figure-img figcaption:before {
+      margin-right: 0.375rem;
+      content: "\2014"; }
+
+.figure-quote {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+  font-style: italic;
+  border-left: 3px solid #d54e21; }
+  .figure-quote figcaption {
+    text-shadow: 0 1px 0 white;
+    color: #999999; }
+    .figure-quote figcaption:before {
+      margin-right: 0.375rem;
+      content: "\2014"; }
+
+.gallery {
+  text-align: center;
+  width: 100%; }
+
+.panel {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 1.5rem 0;
+  border: 1px solid;
+  border-color: #cccccc #cccccc #c4c4c4;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: white; }
+
+.panel-info {
+  border-color: #74bfe1;
+  background: #ddeff8; }
+  .panel-info pre {
+    border-color: #74bfe1; }
+
+.panel-demo {
+  position: relative;
+  padding: 3rem 1.5rem 1.5rem; }
+  .panel-demo:after {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px 0;
+    font-size: 0.83333rem;
+    font-weight: bold;
+    text-shadow: 0 1px 0 white;
+    color: #999999;
+    background: #f0f2f4;
+    content: "Demo"; }
+
+.btn {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border: 1px solid #cccccc;
+  font-weight: bold;
+  text-shadow: 0 1px 0 white;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #666666;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px white; }
+  .btn:hover {
+    border-color: #cccccc #cccccc #c4c4c4;
+    text-decoration: none;
+    color: #666666;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #f7f7f7));
+    background-image: -webkit-linear-gradient(white, #f7f7f7);
+    background-image: linear-gradient(white, #f7f7f7); }
+
+#likes {
+  position: absolute;
+  top: -4.625rem;
+  right: 0;
+  display: inline-block;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s; }
+  #likes.counted {
+    text-shadow: none;
+    color: white;
+    border-color: #d54e21;
+    box-shadow: none;
+    background: #d54e21; }
+  #likes.moveme {
+    position: relative;
+    top: auto;
+    right: auto; }
+
+.no-js #likes {
+  display: none; }
+
+.alert {
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #7f612e;
+  border: 1px solid #ccbc00;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 white;
+  background: #fffbcc; }
+  .alert h3 {
+    margin-bottom: 0.375rem;
+    font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    color: inherit; }
+  .alert p {
+    margin-bottom: 0; }
+  .alert p + p {
+    margin-top: 0.75rem; }
+  .alert a {
+    color: #d54e21; }
+    .alert a:hover {
+      color: #21759b; }
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.nav-main {
+  float: right;
+  font-size: 1.16667rem;
+  line-height: 1.333333333; }
+  .nav-main li {
+    display: inline-block;
+    padding-left: 0.75rem; }
+  .nav-main a {
+    display: block;
+    text-decoration: none; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../font/icomoon.eot");
+  src: url("../font/icomoon.eot?#iefix") format("embedded-opentype"), url("../font/icomoon.woff") format("woff"), url("../font/icomoon.ttf") format("truetype"), url("../font/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-github, .icon-twitter, .icon-google-plus, .icon-linkedin, .icon-feed, .icon-heart-full, .icon-heart-empty {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-github:before {
+  content: "\e000"; }
+
+.icon-twitter:before {
+  content: "\e001"; }
+
+.icon-google-plus:before {
+  content: "\e002"; }
+
+.icon-linkedin:before {
+  content: "\e003"; }
+
+.icon-feed:before {
+  content: "\e004"; }
+
+.icon-heart-empty:before {
+  content: "\e005"; }
+
+.icon-heart-full:before {
+  content: "\e006"; }
+
+.container {
+  width: 90%;
+  max-width: 40em;
+  margin: 0 auto; }
+
+#layout {
+  min-height: 100%;
+  margin-bottom: -3.5rem; }
+
+#content {
+  margin-bottom: 1.5rem; }
+
+#head {
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 0 1px 0 white;
+  background: white; }
+
+#logo {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.33333rem;
+  line-height: 1;
+  vertical-align: middle; }
+  #logo a {
+    text-decoration: none; }
+  #logo .visible-small {
+    visibility: hidden; }
+  #logo a span {
+    margin-left: 60px; }
+  #logo .avatar {
+    float: left;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #21759b;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px 1px #bbb;
+    float: left;
+    position: absolute;
+    top: 15px; }
+  #logo .avatar:hover {
+    border: 1px solid #d54e21;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+    #logo .avatar:hover img {
+      box-shadow: 0px 1px 1px 1px #d54e21;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      transition: all 0.3s linear; }
+  #logo .avatar img {
+    /* selector for a picture which is "inside" the avatar class */
+    display: block;
+    /* a picture is being displayed as a block, by a width it will be equal to the parent(in the div) */
+    width: 100%;
+    /* width 100% */
+    border: 0;
+    /* zero border */
+    margin: 0;
+    /* external margin is lacking */
+    border-radius: 50%;
+    /* read above */ }
+
+#faux-foot {
+  height: 3.5rem; }
+
+#foot {
+  position: relative;
+  clear: both;
+  height: 3.5rem;
+  border-top: 1px solid #cccccc;
+  background: white; }
+
+#rss,
+#copyright {
+  margin: 1rem 0; }
+
+#rss,
+#copyright,
+#copyright a {
+  color: #999999; }
+
+#rss {
+  float: right; }
+  #rss:hover {
+    text-decoration: none;
+    color: #d54e21; }
+
+#designby {
+  font-size: 0.6em; }
+
+#copyright {
+  float: left; }
+
+.post > header {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 white; }
+  .post > header > h2 {
+    margin-bottom: 0.25rem; }
+.post > footer {
+  margin: 2.25rem 0 1.5rem;
+  *zoom: 1; }
+  .post > footer:before, .post > footer:after {
+    content: " ";
+    display: table; }
+  .post > footer:after {
+    clear: both; }
+
+.content {
+  position: relative; }
+
+.archive-list {
+  margin-left: 0;
+  padding: 0;
+  list-style: none; }
+
+.archive-list-item {
+  position: relative; }
+  .archive-list-item h2 {
+    position: absolute;
+    top: 1.25rem;
+    right: 0;
+    text-shadow: 0 1px 0 white;
+    color: #999999; }
+  .archive-list-item article > h3 {
+    margin-bottom: 0;
+    padding-right: 6rem; }
+  .archive-list-item.with-year {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 0 white inset; }
+  .archive-list-item:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+    box-shadow: none; }
+    .archive-list-item:first-child h2 {
+      top: -0.25rem; }
+
+.meta-data {
+  text-shadow: 0 1px 0 white;
+  color: #999999; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.visible-small {
+  display: none !important; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@media (max-width: 480px) {
+  html {
+    font-size: 1em; }
+
+  .figure-img {
+    display: block;
+    float: none; }
+    .figure-img.pull-right, .figure-img.pull-left {
+      max-width: 100%;
+      margin: 0 0 1.5rem 0; }
+    .figure-img figcaption {
+      text-align: center; }
+
+  .two-up {
+    margin: 0 0 0.75rem; }
+    .two-up li {
+      float: none;
+      width: 100%;
+      padding: 0 0 0.75rem; }
+
+  .post > header > h2 {
+    margin-bottom: 0.375rem; }
+
+  .visible-small {
+    display: inherit !important; }
+
+  .visible-large {
+    display: none !important; }
+
+  #logo .visible-small {
+    visibility: visible; }
+  #logo .visible-large {
+    visibility: hidden; } }

@@ -1,0 +1,131 @@
+// =============================================================================
+// Layout
+// =============================================================================
+
+.container {
+  width: 90%;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+#layout {
+  min-height: 100%;
+  margin-bottom: -$footer-height;
+}
+
+#content {
+  margin-bottom: $base-spacing-unit;
+}
+
+// Site header
+// =====================================
+
+#head {
+  margin-bottom: $double-spacing-unit;
+  padding: ($base-spacing-unit / 1.5) 0;
+  border-bottom: 1px solid $gray-light;
+  @include box-shadow(0 1px 0 $white);
+  background: $header-background;
+}
+
+// The logo
+// =====================================
+
+#logo {
+  display: inline-block;
+  margin: 0;
+  @include font-size($delta-size);
+  line-height: 1;
+  vertical-align: middle;
+
+  a {
+    text-decoration: none;
+  }
+
+  .visible-small {
+    visibility: hidden;
+  }
+
+ a {
+    span {
+      margin-left:60px;
+    }
+ }
+
+  .avatar {
+      float: left;
+      background: #fff;
+      width: 50px;
+      height: 50px;
+      padding: 5px;
+      border: 1px solid $blue;
+      border-radius: 50%;
+      box-shadow: 0px 1px 1px 1px #bbb;
+      float:left;
+      position: absolute;
+      top: 15px;
+  }
+
+  .avatar:hover {
+    border: 1px solid $orange;
+    @include transition(all 0.3s linear);
+
+    img {
+      box-shadow: 0px 1px 1px 1px $orange;
+      @include transition(all 0.3s linear);
+    }
+  }
+
+  .avatar img{ /* selector for a picture which is "inside" the avatar class */
+      display: block; /* a picture is being displayed as a block, by a width it will be equal to the parent(in the div) */
+      width: 100%; /* width 100% */
+      border: 0; /* zero border */
+      margin: 0; /* external margin is lacking */
+      border-radius: 50%; /* read above */
+  }
+
+}
+
+
+// Site footer
+// =====================================
+
+#faux-foot {
+  height: $footer-height;
+}
+
+#foot {
+  position: relative;
+  clear: both;
+  height: $footer-height;
+  border-top: 1px solid $gray-light;
+  background: $footer-background;
+}
+
+#rss,
+#copyright {
+  margin: ($base-spacing-unit / 1.5) 0;
+}
+
+#rss,
+#copyright,
+#copyright a {
+  color: $gray;
+}
+
+#rss {
+  float: right;
+
+  &:hover {
+    text-decoration: none;
+    color: $orange;
+  }
+}
+
+#designby {
+  font-size: 0.6em;
+}
+
+#copyright {
+  float: left;
+}
