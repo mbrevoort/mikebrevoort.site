@@ -6,13 +6,11 @@ tags: [english, html]
 date: 2013-10-10 09:00:00
 ---
 
-# LXJS and Portugal
-
-I'm just wrapped up a wonderful time in Portugal, actually authoring this from the the air above the Atlantic as I return to Colorado. I travelled to Lisbon last week for LXJS and was then joined by my wife and spent the rest of our time along the southern coast in Lagos. It was absolutely beautiful.
+I've just wrapped up a wonderful time in Portugal, actually authoring this from the the air above the Atlantic as I return to Colorado. I travelled to Lisbon last week for LXJS and was then joined by my wife and spent the rest of our time along the southern coast in Lagos. It was absolutely beautiful.
 
 ## The Conference
 
-LXJS was refreshing. It's been quite a while since I ventured outside of the United States and the first time for any type of technical conference. I was most surprised and impressed by the diversity of the people I met, including those from the Portugal, UK, US, Germany, Denmark, Sweden, Netherlands and China. I had many interesting conversations about technology, travel, politics, leadership, family, wine and food. 
+[LXJS](lxjs.org) was refreshing. It's been quite a while since I ventured outside of the United States and the first time for any type of technical conference. I was most surprised and impressed by the diversity of the people I met, including those from the Portugal, UK, US, Germany, Denmark, Sweden, Netherlands and China. I had many interesting conversations about technology, travel, politics, leadership, family, wine and food. 
 
 The two day event was held at a cinema with fantastic character and architecture and a gigantic stage and screen. It was a magical setting that reaffirmed my affinity for the single track conference. The entire crew of organizers, [Nuno](https://twitter.com/dscape), [David Dias](https://twitter.com/daviddias), [Ana](https://twitter.com/anoemi), [Pedro](https://twitter.com/pgte) and others were amazing. They created an authentic, down to earth, community experience. As a speaker I appreciated all of the support and preparation leading up to and during the event, addressing all sorts of details, allowing the speakers to focus on their talks. 
 
@@ -30,13 +28,15 @@ The projects are on [Github](https://github.com/PearsonEducation) and published 
 
 <iframe class="iframe-polaroid" width="720" height="440" src="http://www.youtube.com/embed/k6QkNt4hZWQ" frameborder="0" allowfullscreen></iframe>
 
+## Homeward Bound
+
 I thoroughly enjoyed Portugal. Lisbon was full of charm, character and history and the beaches near Lagos were breathtaking. I'll simply leave you with a few photographs…
 
 ![Lisbon](/img/2013-10-10-lxjs-portugal/lisbon1.jpg)
 
-![Lisbon](/img/2013-10-10-lxjs-portugal/lisbon2.jpg)
-
 ![Lisbon](/img/2013-10-10-lxjs-portugal/lisbon3.jpg)
+
+![Lisbon](/img/2013-10-10-lxjs-portugal/lisbon2.jpg)
 
 ![Lagos](/img/2013-10-10-lxjs-portugal/lagos1.jpg)
 
