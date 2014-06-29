@@ -8,11 +8,7 @@ date: 2014-06-29 02:00:00
 
 I gave this talk at LXJS 2014 on June 28, 2014 in Lisbon, Portugal. It's been a humbling experience to be back in Lisbon for LXJS and to have had so many people share their personal stories with me after this talk. 
 
-I prepared for this talk differently than any other talk I'd given in the past. I typically create an outline, derive  slides and wing it. When developing this talk I quickly realized that approach would not do this topic justice, so I started with writing a full narrative. Below is the video recording and then the narrative. 
-
 <iframe class="iframe-polaroid" width="720" height="440" src="http://www.youtube.com/embed/nK2og2MSUCs" frameborder="0" allowfullscreen></iframe>
-
-# Narrative
 
 ## Introduction
 
