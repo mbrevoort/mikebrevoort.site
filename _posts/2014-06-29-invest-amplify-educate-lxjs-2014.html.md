@@ -6,9 +6,6 @@ tags: [english, html]
 date: 2014-06-29 02:00:00
 ---
 
-Invest. Amplify. Educate. (LXJS 2014)
--------------------------------------
-
 I gave this talk at LXJS 2014 on June 28, 2014 in Lisbon, Portugal. It's been a humbling experience to be back in Lisbon for LXJS and to have had so many people share their personal stories with me after this talk. 
 
 I prepared for this talk differently than any other talk I'd given in the past. I typically create an outline, derive  slides and wing it. When developing this talk I quickly realized that approach would not do this topic justice, so I started with writing a full narrative. Below is the video recording and then the narrative. 
@@ -124,8 +121,3 @@ The first is invest in others, not your money but invest your time and energy. W
 The second thing is go, and create, and make, and invent new ways of connecting people that improves learning and that improves peoples lives, if only for one person at a time. Don’t expect that your government or school officials will take care of this for you! If we are to truly democratize education, we, the people, who are capable and care enough must act. You all are fantastically talented, don’t hoard your gifts, pay them forward. Imagine the impact we can make in education and the lives of people around the world if we did.
 
 Thank You
-
-
-
-
-![Lagos](/img/2013-10-10-lxjs-portugal/lagos3.jpg)
