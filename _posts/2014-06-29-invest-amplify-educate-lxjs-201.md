@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Invest. Amplify. Educate. (LXJS 2014)
+title: Invest. Amplify. Educate.
 category: articles
 tags: [english, html]
 date: 2014-06-29 02:00:00
